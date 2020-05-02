@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "416927463019",
+    "firebase_url": "https://gpssalus.firebaseio.com",
+    "project_id": "gpssalus",
+    "storage_bucket": "gpssalus.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416927463019:android:fa2426281bc91f210ce32e",
+        "android_client_info": {
+          "package_name": "com.saludgps.saludgps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "416927463019-tm9jd9amqi1alsr0k8sp9duab7l1akk9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBy5Vb49aCWteFogvPxFm-2AQtw58aUMm0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "416927463019-tm9jd9amqi1alsr0k8sp9duab7l1akk9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

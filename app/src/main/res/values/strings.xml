@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Salud Gps</string>
+    <string name="correo">Correo electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="olvidastespasswor">¿Olvidaste tu Contraseña?</string>
+    <string name="notienecuenta">¿No tienes una cuenta? <b>Regístrate aquí</b></string>
+    <string name="recuperarpasswortitle"><b>e-mail Inválido</b></string>
+    <string name="recuperarpassworddescripcion">El e-mail no es válido o no existe en nuestros registros,
+     escríbelo correctamente para que puedas actualizar tu contraseña.</string>
+    <string name="ingresoFallido"><b>Ingreso fallido</b></string>
+    <string name="ingresoFallidoDescrip">Tus datos no parecen estar correctos. Revisa tus datos y/o
+        tu acceso a Internet</string>
+    <string name="omitir">Omitir</string>
+    <string name="registrate">Regístrate aquí</string>
+    <string name="iniciarsesiion">Iniciar sesión</string>
+    <string name="registrar">Registrarse</string>
+    <string name="registrarUsuario">Registrar Usuario</string>
+
+    <string name="facebook_app_id">234742344259450</string>
+    <string name="fb_login_protocol_scheme">fb234742344259450</string>
+    <string name="title_activity_maps">Map</string>
+
+
+    <!--
+    MAC
+    keytool -exportcert -alias androiddebugkey -keystore ~/.android/debug.keystore | openssl sha1 -binary | openssl base64
+    qbVxOyyMZIx6QIq4XGpeX0WxgbE=
+
+    WINDOWS
+    keytool -exportcert -alias androiddebugkey -keystore "C:\Users\USERNAME\.android\debug.keystore" | "PATH_TO_OPENSSL_LIBRARY\bin\openssl" sha1 -binary | "PATH_TO_OPENSSL_LIBRARY\bin\openssl" base64
+    codigo
+
+    Generar un hash de clave de activación
+    Las apps de Android deben estar firmadas digitalmente con una clave de activación antes de que puedas subirlas a la tienda. Para generar un hash de tu clave de activación, ejecuta el siguiente comando en Mac o Windows y reemplaza el alias de la clave de activación y la ruta del almacén de claves:
+
+
+    keytool -exportcert -alias YOUR_RELEASE_KEY_ALIAS -keystore YOUR_RELEASE_KEY_PATH | openssl sha1 -binary | openssl base64
+    caizoXIL238ZXfHVE5NmV4UETII=
+
+
+    Métodos de compra
+    De manera similar al registro de las activaciones de la aplicación, el SDK de Facebook ofrece un método auxiliar para registrar compras con una única línea de código. Por ejemplo, una compra de $4,32 puede registrarse con:
+
+
+    logger.logPurchase(BigDecimal.valueOf(4.32), Currency.getInstance("USD"));
+        -->
+
+</resources>
